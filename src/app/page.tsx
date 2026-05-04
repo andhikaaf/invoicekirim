@@ -17,14 +17,14 @@ export default function Home() {
             <Link href="#harga" className="text-zinc-400 hover:text-white transition-colors">
               Harga
             </Link>
-            <Link href="#login" className="text-zinc-400 hover:text-white transition-colors">
+            <Link href="/login" className="text-zinc-400 hover:text-white transition-colors">
               Login
             </Link>
           </div>
 
-          <button className="px-5 py-2 bg-accent text-white font-semibold rounded-lg hover:bg-red-600 transition-colors">
+          <Link href="/login" className="px-5 py-2 bg-accent text-white font-semibold rounded-lg hover:bg-red-600 transition-colors">
             Mulai Gratis
-          </button>
+          </Link>
         </div>
       </nav>
 
@@ -40,9 +40,9 @@ export default function Home() {
               Nggak perlu Excel, nggak perlu template ribet.
               Isi form, klik kirim, selesai.
             </p>
-            <button className="px-8 py-4 bg-accent text-white font-semibold rounded-lg hover:bg-red-600 transition-colors text-lg">
+            <Link href="/login" className="px-8 py-4 bg-accent text-white font-semibold rounded-lg hover:bg-red-600 transition-colors text-lg">
               Mulai Gratis — Tanpa Kartu Kredit
-            </button>
+            </Link>
           </div>
 
           {/* Invoice Preview */}
@@ -266,9 +266,9 @@ export default function Home() {
                   Share via link
                 </li>
               </ul>
-              <button className="w-full py-3 border border-zinc-700 text-white font-semibold rounded-lg hover:bg-zinc-800 transition-colors">
+              <Link href="/login" className="block text-center w-full py-3 border border-zinc-700 text-white font-semibold rounded-lg hover:bg-zinc-800 transition-colors">
                 Mulai Gratis
-              </button>
+              </Link>
             </div>
 
             {/* Pro */}
@@ -321,9 +321,9 @@ export default function Home() {
           <p className="text-zinc-400 text-lg mb-8">
             Bergabung dengan ratusan freelancer dan UMKM yang sudah menggunakan InvoiceKirim.
           </p>
-          <button className="px-10 py-4 bg-accent text-white font-semibold rounded-lg hover:bg-red-600 transition-colors text-lg">
+          <Link href="/login" className="px-10 py-4 bg-accent text-white font-semibold rounded-lg hover:bg-red-600 transition-colors text-lg">
             Daftar Gratis
-          </button>
+          </Link>
         </div>
       </section>
 
