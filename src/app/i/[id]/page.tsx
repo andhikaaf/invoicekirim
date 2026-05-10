@@ -60,7 +60,7 @@ export default async function PublicInvoicePage({ params }: { params: Promise<{ 
         <div className="grid grid-cols-2 gap-8 mb-10 print:gap-16">
           <div>
             <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wider mb-2">From</p>
-            <p className="font-medium">{invoice.user_email || 'Pengirim'}</p>
+            <p className="font-medium">{invoice.sender_email || 'Pengirim'}</p>
           </div>
           <div>
             <p className="text-xs font-semibold text-zinc-500 uppercase tracking-wider mb-2">To</p>

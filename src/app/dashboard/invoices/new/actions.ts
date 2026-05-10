@@ -41,6 +41,7 @@ export async function saveInvoice(formData: FormData) {
 
   await supabase.from('invoices').insert({
     user_id: user.id,
+    sender_email: user.email,
     invoice_number: invoiceNumber,
     client_name: clientName,
     client_email: clientEmail || null,
