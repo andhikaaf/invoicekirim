@@ -93,7 +93,7 @@ export default async function DashboardPage() {
                       )}
                     </td>
                     <td className="px-6 py-4 text-zinc-400 text-sm">
-                      {new Date(invoice.issue_date).toLocaleDateString('id-ID', {
+                      {new Date(invoice.created_at).toLocaleDateString('id-ID', {
                         day: 'numeric',
                         month: 'long',
                         year: 'numeric',
